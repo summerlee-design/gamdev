@@ -1,0 +1,506 @@
+{
+    "name": "3UNN1",
+    "spawnWeight": 1,
+    "characterTypes": [
+        "SurvivorF_Eva"
+    ],
+    "attachmentSlotItemSets": [
+        {
+            "slotName": "hands",
+            "discreteItemSets": [
+                {
+                    "itemType": "Barrel_Blue",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [
+                        "CarTent",
+                        "LargeTent",
+                        "CanisterGasoline",
+                        "LeatherSewingKit"
+                    ],
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "PortableGasStove",
+                            "attributes": {
+                                "healthMin": 1,
+                                "healthMax": 1,
+                                "quantityMin": 1,
+                                "quantityMax": 1
+                            },
+                            "quickBarSlot": 8,
+                            "simpleChildrenUseDefaultAttributes": true,
+                            "simpleChildrenTypes": [
+                                "LargeGasCanister"
+                            ],
+                            "complexChildrenTypes": [
+                                {
+                                    "itemType": "Pot",
+                                    "attributes": {
+                                        "healthMin": 1,
+                                        "healthMax": 1,
+                                        "quantityMin": 1,
+                                        "quantityMax": 1
+                                    },
+                                    "quickBarSlot": 7,
+                                    "simpleChildrenUseDefaultAttributes": true,
+                                    "simpleChildrenTypes": [
+                                        "Zagorky",
+                                        "TacticalBaconCan",
+                                        "Honey",
+                                        "SodaCan_Kvass"
+                                    ]
+                                },
+                                {
+                                    "itemType": "SmallProtectorCase",
+                                    "attributes": {
+                                        "healthMin": 1,
+                                        "healthMax": 1,
+                                        "quantityMin": 1,
+                                        "quantityMax": 1
+                                    },
+                                    "quickBarSlot": 7,
+                                    "simpleChildrenUseDefaultAttributes": true,
+                                    "simpleChildrenTypes": [
+                                        "PetrolLighter",
+                                        "PetrolLighter",
+                                        "PetrolLighter",
+                                        "PetrolLighter",
+                                        "Battery9V",
+                                        "Battery9V",
+                                        "Battery9V",
+                                        "Battery9V",
+                                        "Heatpack",
+                                        "Heatpack"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "slotName": "shoulderL",
+            "discreteItemSets": [
+                {
+                    "itemType": "Pickaxe",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [],
+                    "complexChildrenTypes": []
+                }
+            ]
+        },
+        {
+            "slotName": "shoulderR",
+            "discreteItemSets": [
+                {
+                    "itemType": "Sledgehammer",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [],
+                    "complexChildrenTypes": []
+                }
+            ]
+        },
+        {
+            "slotName": "Vest",
+            "discreteItemSets": [
+                {
+                    "itemType": "PlateCarrierVest_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [],
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "PlateCarrierPouches_Black",
+                            "attributes": {
+                                "healthMin": 1,
+                                "healthMax": 1,
+                                "quantityMin": 1,
+                                "quantityMax": 1
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenUseDefaultAttributes": true,
+                            "simpleChildrenTypes": [
+                                "Mag_FNX45_15Rnd",
+                                "Mag_FNX45_15Rnd",
+                                "Mag_FNX45_15Rnd",
+                                "Mag_AKM_Drum75Rnd"
+                            ]
+                        },
+                        {
+                            "itemType": "PlateCarrierHolster_Black",
+                            "attributes": {
+                                "healthMin": 1,
+                                "healthMax": 1,
+                                "quantityMin": 1,
+                                "quantityMax": 1
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenUseDefaultAttributes": true,
+                            "simpleChildrenTypes": [],
+                            "complexChildrenTypes": [
+                                {
+                                    "itemType": "FNX45",
+                                    "attributes": {
+                                        "healthMin": 1,
+                                        "healthMax": 1,
+                                        "quantityMin": 1,
+                                        "quantityMax": 1
+                                    },
+                                    "quickBarSlot": -1,
+                                    "simpleChildrenUseDefaultAttributes": true,
+                                    "simpleChildrenTypes": [
+                                        "Mag_FNX45_15Rnd",
+                                        "PistolSuppressor"
+                                    ],
+                                    "complexChildrenTypes": [
+                                        {
+                                            "itemType": "TLRLight",
+                                            "attributes": {
+                                                "healthMin": 1,
+                                                "healthMax": 1,
+                                                "quantityMin": 1,
+                                                "quantityMax": 1
+                                            },
+                                            "quickBarSlot": -1,
+                                            "simpleChildrenUseDefaultAttributes": true,
+                                            "simpleChildrenTypes": [
+                                                "Battery9V"
+                                            ]
+                                        },
+                                        {
+                                            "itemType": "FNP45_MRDSOptic",
+                                            "attributes": {
+                                                "healthMin": 1,
+                                                "healthMax": 1,
+                                                "quantityMin": 1,
+                                                "quantityMax": 1
+                                            },
+                                            "quickBarSlot": -1,
+                                            "simpleChildrenUseDefaultAttributes": true,
+                                            "simpleChildrenTypes": [
+                                                "Battery9V"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "slotName": "Headgear",
+            "discreteItemSets": [
+                {
+                    "itemType": "OKZKCap_Beige",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [],
+                    "complexChildrenTypes": []
+                }
+            ]
+        },
+        {
+            "slotName": "Armband",
+            "discreteItemSets": [
+                {
+                    "itemType": "Armband_Pirates",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [],
+                    "complexChildrenTypes": []
+                }
+            ]
+        },
+        {
+            "slotName": "Gloves",
+            "discreteItemSets": [
+                {
+                    "itemType": "TacticalGloves_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [],
+                    "complexChildrenTypes": []
+                }
+            ]
+        },
+        {
+            "slotName": "Body",
+            "discreteItemSets": [
+                {
+                    "itemType": "TacticalShirt_Grey",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [
+                        "AlarmClock_Red",
+                        "ChernarusMap",
+                        "OrienteeringCompass",
+                        "Sparkplug",
+                        "Glowplug",
+                        "Lockpick"
+                    ],
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "Rangefinder",
+                            "attributes": {
+                                "healthMin": 1,
+                                "healthMax": 1,
+                                "quantityMin": 1,
+                                "quantityMax": 1
+                            },
+                            "quickBarSlot": 3,
+                            "simpleChildrenUseDefaultAttributes": true,
+                            "simpleChildrenTypes": [
+                                "Battery9V"
+                            ]
+                        },
+                        {
+                            "itemType": "FirstAidKit",
+                            "attributes": {
+                                "healthMin": 1,
+                                "healthMax": 1,
+                                "quantityMin": 1,
+                                "quantityMax": 1
+                            },
+                            "quickBarSlot": 5,
+                            "simpleChildrenUseDefaultAttributes": true,
+                            "simpleChildrenTypes": [
+                                "BloodTestKit",
+                                "BandageDressing",
+                                "TetracyclineAntibiotics",
+                                "PurificationTablets",
+                                "VitaminBottle"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "slotName": "Legs",
+            "discreteItemSets": [
+                {
+                    "itemType": "CargoPants_Blue",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [
+                        "NailBox",
+                        "NailBox",
+                        "NailBox",
+                        "Whetstone",
+                        "Whetstone",
+                        "Whetstone",
+                        "Whetstone",
+                        "MetalWire",
+                        "Rope"
+                    ],
+                    "complexChildrenTypes": []
+                }
+            ]
+        },
+        {
+            "slotName": "Feet",
+            "discreteItemSets": [
+                {
+                    "itemType": "Sneakers_White",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [],
+                    "complexChildrenTypes": []
+                }
+            ]
+        },
+        {
+            "slotName": "Eyewear",
+            "discreteItemSets": [
+                {
+                    "itemType": "SkiGoggles_WhiteDark",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [],
+                    "complexChildrenTypes": []
+                }
+            ]
+        },
+        {
+            "slotName": "Mask",
+            "discreteItemSets": [
+                {
+                    "itemType": "FaceCover_Improvised",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [],
+                    "complexChildrenTypes": []
+                }
+            ]
+        },
+        {
+            "slotName": "Back",
+            "discreteItemSets": [
+                {
+                    "itemType": "HuntingBag_Hannah",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [
+                        "Chemlight_Red",
+                        "FieldShovel",
+                        "Hatchet"
+                    ],
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "GPSReceiver",
+                            "attributes": {
+                                "healthMin": 1,
+                                "healthMax": 1,
+                                "quantityMin": 1,
+                                "quantityMax": 1
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenUseDefaultAttributes": true,
+                            "simpleChildrenTypes": [
+                                "Battery9V"
+                            ]
+                        },
+                        {
+                            "itemType": "FishingRod",
+                            "attributes": {
+                                "healthMin": 1,
+                                "healthMax": 1,
+                                "quantityMin": 1,
+                                "quantityMax": 1
+                            },
+                            "quickBarSlot": 9,
+                            "simpleChildrenUseDefaultAttributes": true,
+                            "simpleChildrenTypes": [
+                                "Jig"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "slotName": "Hips",
+            "discreteItemSets": [
+                {
+                    "itemType": "HipPack_Medical",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [
+                        "Canteen",
+                        "Apple",
+                        "Apple",
+                        "Apple",
+                        "Apple",
+                        "Apple",
+                        "Apple"
+                    ],
+                    "complexChildrenTypes": []
+                }
+            ]
+        }
+    ],
+    "discreteUnsortedItemSets": []
+}

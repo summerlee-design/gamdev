@@ -1,0 +1,104 @@
+{
+	"version": 122,
+	"GeneralData":
+	{
+		"disableBaseDamage": false,
+		"disableContainerDamage": false,
+		"disableRespawnDialog": false,
+		"disableRespawnInUnconsciousness": false
+	},
+    "PlayerData":
+	{
+		"disablePersonalLight": false,
+        "spawnGearPresetFiles": ["custom/starterkit.json"],
+		"StaminaData":
+		{
+			"sprintStaminaModifierErc": 0.55,
+			"sprintStaminaModifierCro": 0.34,
+			"staminaWeightLimitThreshold": 21000.0,
+			"staminaMax": 100.0,
+			"staminaKgToStaminaPercentPenalty": 1.21,
+			"staminaMinCap": 8.0,
+			"sprintSwimmingStaminaModifier": 0.89,
+			"sprintLadderStaminaModifier": 0.89,
+			"meleeStaminaModifier": 0.55,
+			"obstacleTraversalStaminaModifier": 0.34,
+			"holdBreathStaminaModifier": 0.89
+		},
+		"ShockHandlingData":
+		{
+			"shockRefillSpeedConscious": 10.0,
+			"shockRefillSpeedUnconscious": 5.0,
+			"allowRefillSpeedModifier": true
+		},
+		"MovementData":
+		{
+			"timeToStrafeJog": 0.21,
+			"rotationSpeedJog": 0.34,
+			"timeToSprint": 1.13,
+			"timeToStrafeSprint": 0.34,
+			"rotationSpeedSprint": 0.21,
+			"allowStaminaAffectInertia": true
+		},
+		"DrowningData":
+		{
+			"staminaDepletionSpeed": 10.0,
+			"healthDepletionSpeed": 10.0,
+			"shockDepletionSpeed": 10.0
+		}
+	},
+	"WorldsData":
+	{
+		"lightingConfig": 2,
+		"objectSpawnersArr": ["custom/sakhal-planefast-travel-objects.json"],
+		"environmentMinTemps": [-5, -2, 3, 5, 8, 13, 21, 13, 8, 5, 3, -2],
+		"environmentMaxTemps": [3, 3, 5, 8, 13, 21, 34, 21, 13, 8, 5, 3],
+		"wetnessWeightModifiers": [1.0, 1.0, 1.33, 1.66, 2.0],
+		"playerRestrictedAreaFiles": ["pra/warheadstorage.json","custom/fast-travel-1-nw-coast-to-se-coast.json","custom/fast-travel-2-se-coast-to-main-af.json","custom/fast-travel-3-main-af-to-w-penin.json","custom/fast-travel-4-w-penin-to-se-island.json","custom/fast-travel-5-se-island-to-sw-island.json","custom/fast-travel-6-sw-island-to-nw-coast.json"]
+	},
+	"BaseBuildingData":
+	{
+		"HologramData":
+		{
+			"disableIsCollidingBBoxCheck": true,
+			"disableIsCollidingPlayerCheck": true,
+			"disableIsClippingRoofCheck": true,
+			"disableIsBaseViableCheck": true,
+			"disableIsCollidingGPlotCheck": true,
+			"disableIsCollidingAngleCheck": true,
+			"disableIsPlacementPermittedCheck": true,
+			"disableHeightPlacementCheck": true,
+			"disableIsUnderwaterCheck": true,
+			"disableIsInTerrainCheck": true,
+			"disallowedTypesInUnderground": ["FenceKit","TerritoryFlagKit","WatchtowerKit"]
+		},
+		"ConstructionData":
+		{
+			"disablePerformRoofCheck": true,
+			"disableIsCollidingCheck": true,
+			"disableDistanceCheck": true
+		}
+	},
+	"UIData":
+	{
+		"use3DMap": false,
+		"HitIndicationData":
+		{
+			"hitDirectionOverrideEnabled": false,
+			"hitDirectionBehaviour": 1,
+			"hitDirectionStyle": 0,
+			"hitDirectionIndicatorColorStr": "0xffbb0a1e",
+			"hitDirectionMaxDuration": 2.0,
+			"hitDirectionBreakPointRelative": 0.2,
+			"hitDirectionScatter": 10.0,
+			"hitIndicationPostProcessEnabled": true
+		}
+	},
+	"MapData":
+	{
+		"ignoreMapOwnership": true,
+		"ignoreNavItemsOwnership": true,
+		"displayPlayerPosition": true,
+		"displayNavInfo": true
+	}
+}
